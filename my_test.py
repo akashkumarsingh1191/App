@@ -66,4 +66,3 @@ def get_data(Trip_status,indent_status):
     json_format2=df1.to_json(orient='records')
     logging.info(f'line 64')
     return json_format,json_format2
-    # return df,df1
