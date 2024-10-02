@@ -5,8 +5,8 @@ import logging
 def get_data(Trip_status,indent_status):
     # Trip_status=files[0]
     # indent_status=files[1]
-    # Trip_status=pd.read_excel('Trip_status_report_1726214047574.xlsx')
-    # indent_status=pd.read_excel('indent_status2024-08-24T_2024-09-13T_b57eeb274918d8794.xlsx')
+    Trip_status=pd.read_excel('Trip_status_report_1726214047574.xlsx')
+    indent_status=pd.read_excel('indent_status2024-08-24T_2024-09-13T_b57eeb274918d8794.xlsx')
 
     # Trip_status.head()
     try:
